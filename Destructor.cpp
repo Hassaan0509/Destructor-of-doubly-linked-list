@@ -13,17 +13,3 @@ list::~list()
     delete temp1;
 }
 
-//DoublyLinkedList<T>::~DoublyLinkedList() {
-//    // Initialize traversal and trailing Nodes
-//    Node* trav = head;
-//    Node* trail = trav;
-//    // While traversal Node isn't null (end of list not yet reached)...
-//    while (trav != nullptr) {
-//        // Iterate traversal node
-//        trav = trav->next;
-//        // Delete trailing node
-//        delete(trail);
-//        // Assign trailing node to traversal node
-//        trail = trav;
-//    }
-//}
